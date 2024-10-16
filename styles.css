@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap);
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: lavenderblush;
+}
+
+.results {
+    text-align: center;
+    font-weight: 600;
+    font-size: 46px;
+    color: lavenderblush;
+    -webkit-text-stroke: 1px #060606;
+    margin-bottom: 15px;
+}
+
+.playernames {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.playername1 {
+    font-size: 30px;
+}
+
+.diceimage {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    padding: 35px 25px;
+}
+
+.dice {
+    width: 150px;
+}
+
+.refbutton {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pnow {
+    font-size: 25px;
+    background: blue;
+    color: wheat;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    
+}
+
+.pnow:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    color: black;
+    background-color: blanchedalmond;
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copy a {
+    color: lavenderblush;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.copy a:hover {
+    text-decoration: underline;
+}
+
+.playerNames {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 35px 25px;
+}
+
+.playerNames input {
+    width: 45%; 
+    padding: 15px 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    text-align: center;
+}
+
+.playerNames input:focus {
+    border-color: #f654ae;
+}
