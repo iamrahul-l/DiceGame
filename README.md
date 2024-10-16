@@ -26,7 +26,7 @@ function diceRoll() {
     return n;
 }
 ```
-Purpose: Executes the game logic when the player clicks the "Play Now!" button.
+Executes the game logic when the player clicks the "Play Now!" button.
 
 
 
