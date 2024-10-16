@@ -58,7 +58,7 @@ The game logic is implemented in the `playNow()` function, which executes the fo
 8. **Image Updates**: 
   - The code modifies the `src` attributes of image elements to reflect the results of the dice rolls.
 
-```
+```javascript
 function playNow() {
     var Player1Name = document.getElementById("playerName1").value;
     var Player2Name = document.getElementById("playerName2").value;
